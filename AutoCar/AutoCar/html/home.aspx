@@ -35,21 +35,21 @@
                             <a class="nav-link p-lg-3" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-lg-3" aria-current="page" href="#">About us</a>
+                            <a class="nav-link p-lg-3" aria-current="page" href="#aboutus">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link p-lg-3" href="#">Our Team</a>
+                            <a class="nav-link p-lg-3" href="#team">Our Team</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link p-lg-3" href="#">Safety</a>
                         </li>
                         <li class="nav-item">
-                            <asp:Button ID="register_button" runat="server" CssClass=" btn nav-link p-lg-3" Text="Join us" OnClick="register_button_click" />
+                            <asp:Button ID="register_button" runat="server" CssClass=" btn nav-link p-lg-3" Text="Sign Up" OnClick="register_button_click" />
                         </li>
-                        
+
                         <li class="nav-item">
-                            <asp:Button ID="login_button" runat="server" CssClass=" btn nav-link p-lg-3" Text="Join in" OnClick="login_button_click" />
+                            <asp:Button ID="login_button" runat="server" CssClass=" btn nav-link p-lg-3" Text="Sign In" OnClick="login_button_click" />
                         </li>
 
                         <li class="nav-item">
@@ -66,14 +66,15 @@
             </div>
         </nav>
         <section
-            id="hero"
+            id="heropage"
             class="text-light text-center text-md-start py-5"
             style="background-color: #e9eed6">
             <div class="container">
-                <div class="d-sm-flex align-items-center" style="height: 100vh">
+
+                <div class="d-sm-flex align-items-center" id="aboutus" style="height: 60vh">
                     <!-- div>h1+img -->
                     <div class="py-5 col-md-6 mt-5" style="height: 68vh">
-                        <h1 style="color: #062e33">About Us</h1>
+                        <h1 style="color: #062e33; margin-top: 100px">About Us</h1>
                         <h2 style="color: #ec9555">We reimagine the way the world moves for the better
                         </h2>
                         <p style="color: #1d7977; font-size: 20px">
@@ -97,14 +98,15 @@
                       class="img-fluid" alt="Phone image">
                   </div> -->
                 </div>
-                <div class="d-sm-flex align-items-center" style="height: 100vh">
+
+                <div class="d-sm-flex align-items-center" style="height: 90vh">
                     <!-- div>h1+img -->
                     <img
-                        class="d-none d-sm-block img-fluid w-50 ms-10 mb-0"
+                        class="d-none d-sm-block img-fluid w-50  mb-0"
                         src="../images/safety_-removebg-preview.png"
                         alt="" />
-                    <div class="py-5 col-md-6 mt-5" style="height: 75vh">
-                        <h1 style="color: #062e33"
+                    <div class="py-5 col-md-6 mt-4" style="height: 75vh">
+                        <h1 style="color: #062e33; margin-top: 150px"
                             class="ms-10 mb-0">Your safety drives us </h1>
 
                         <p style="color: #1d7977; font-size: 20px">
@@ -114,23 +116,18 @@
                             We partner with safety advocates and develop new technologies
                             and systems to help improve safety and help make it easier for everyone to get around.
                         </p>
-                         
                     </div>
-
-
-                    <!-- <div class="col-md-4 col-lg-5 ms-5 mb-5">
-                    <img src="cherrydeck-rMILC1PIwM0-unsplash.jpg"
-                      class="img-fluid" alt="Phone image">
-                  </div> -->
                 </div>
             </div>
         </section>
 
-        
 
-        <section class="vh-100" style="background-color: #e9eed6; height: 100vh">
-            <div class="container py-5 h-100">
-                <div class="row  align-items-center h-100">
+
+        <section class="vh-35" style="background-color:  #062e33; height: 80vh">
+            <div class="container py-5">
+
+                <div class="row  align-items-center h-80">
+                <h1 style="color: #e9eed6; margin-bottom: 50px" id="team">Our Team</h1>
                     <!--card one -->
                     <div class="col-md-3 col-xl-3">
                         <div class="card" style="border-radius: 15px">
@@ -305,32 +302,32 @@
         <section id="hero"
             class="text-light text-center text-md-start py-5"
             style="background-color: #e9eed6">
-             <div class="container">
-            <div class="d-sm-flex align-items-center" style="height: 100vh">
-                <!-- div>h1+img -->
-                <div class="py-5 col-md-6 mt-5" style="height: 75vh">
-                    <h1 style="color: #062e33"
-                        class="ms-10 mb-0">Join a fleet in Damascus to drive with AutoCar </h1>
+            <div class="container">
+                <div class="d-sm-flex align-items-center" style="height: 60vh">
+                    <!-- div>h1+img -->
+                    <div class="py-5 col-md-6 mt-5" style="height: 60vh">
+                        <h1 style="color: #062e33; margin-top: 80px"
+                            class="ms-10 mb-0">Join a fleet in Damascus to drive with AutoCar </h1>
 
-                    <p style="color: #1d7977; font-size: 20px">
-                        Looking for driving jobs in Damascus?
+                        <p style="color: #1d7977; font-size: 20px">
+                            Looking for driving jobs in Damascus?
                         Become an employed driver with a fleet car company that partners with AutoCar. 
                         Start driving for them using AutoCar’s Driver website.
-                    </p>
+                        </p>
 
-                </div>
-                <img
-                    class="d-none d-sm-block img-fluid w-50 h-50 ms-10 mb-0"
-                    src="../images/join_us-removebg-preview.png"
-                    alt="" />
+                    </div>
+                    <img
+                        class="d-none d-sm-block img-fluid w-50 h-70 mx-3 mb-0"
+                        src="../images/join_us-removebg-preview.png"
+                        alt="" />
 
 
-                <!-- <div class="col-md-4 col-lg-5 ms-5 mb-5">
+                    <!-- <div class="col-md-4 col-lg-5 ms-5 mb-5">
                     <img src="cherrydeck-rMILC1PIwM0-unsplash.jpg"
                       class="img-fluid" alt="Phone image">
                   </div> -->
+                </div>
             </div>
-                 </div>
         </section>
 
         <!-- Footer -->
