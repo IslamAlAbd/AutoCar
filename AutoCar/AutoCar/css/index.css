@@ -34,7 +34,6 @@
 }
 .button {
     background: #062e33;
-    margin-left:490px;
     font-size: 14px;
     margin-top: 30px;
     padding: 9px 14px;
@@ -48,6 +47,7 @@
     cursor: pointer;
     transition: .2s;
 }
+
 .button:active,
 .button:focus,
 .button:hover {
