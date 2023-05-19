@@ -65,13 +65,23 @@
                 </div>
             </div>
         </nav>
+
+        <div class="w-section section" style="background-image: url(../images/app-bg-2.jpg); padding-top: 120px; background-position: 50% 50%; background-size: cover; padding-bottom: 120px; background-repeat: no-repeat; height: 100vh">
+            <div class="content" style="position: absolute; left: 0; top: 50%; right: 0; display: block; margin-right: auto; margin-left: auto; text-align: center">
+                <p style="max-width: 700px; font-size: 30px; line-height: 30px; margin-bottom: 20px; margin-left: 200px; font-weight: bolder; color: gray">
+                    <span style="color: #ec8924">AutoCar</span> uses your phone's GPS to detect your location and connect you with the nearest available<span style="color: #ec8924">AutoCar</span>  driver. Just kick back, relax, and we will be there before you know it.
+                </p>
+                <asp:Button ID="Button1" runat="server" Style="margin-left: 480px" Text="Order Now" class="button" OnClick="order_button_click" />
+
+            </div>
+        </div>
         <section
             id="heropage"
             class="text-light text-center text-md-start py-5"
             style="background-color: #e9eed6">
             <div class="container">
 
-                <div class="d-sm-flex align-items-center" id="aboutus" style="height: 60vh">
+                <div class="d-sm-flex align-items-center" id="aboutus" style="height: 100vh">
                     <!-- div>h1+img -->
                     <div class="py-5 col-md-6 mt-5" style="height: 68vh">
                         <h1 style="color: #062e33; margin-top: 100px">About Us</h1>
@@ -85,7 +95,6 @@
               the ways you want to earn. Across the entire world. In real time.
               At the incredible speed of now.
                         </p>
-                        <asp:Button ID="order_button" runat="server" Text="Order Now" class="button" OnClick="order_button_click" />
 
                     </div>
 
@@ -93,41 +102,32 @@
                         class="d-none d-sm-block img-fluid w-50 ms-5 mb-0"
                         src="../images/cherrydeck-rMILC1PIwM0-unsplash.jpg"
                         alt="" />
-                    <!-- <div class="col-md-4 col-lg-5 ms-5 mb-5">
-                    <img src="cherrydeck-rMILC1PIwM0-unsplash.jpg"
-                      class="img-fluid" alt="Phone image">
-                  </div> -->
+                   
                 </div>
 
-                <div class="d-sm-flex align-items-center" style="height: 90vh">
-                    <!-- div>h1+img -->
-                    <img
-                        class="d-none d-sm-block img-fluid w-50  mb-0"
-                        src="../images/safety_-removebg-preview.png"
-                        alt="" />
-                    <div class="py-5 col-md-6 mt-4" style="height: 75vh">
-                        <h1 style="color: #062e33; margin-top: 150px"
-                            class="ms-10 mb-0">Your safety drives us </h1>
 
-                        <p style="color: #1d7977; font-size: 20px">
-                            Whether you’re in the back seat or behind the wheel,
-                            your safety is essential. We are committed to doing our part, 
-                            and technology is at the heart of our approach.
-                            We partner with safety advocates and develop new technologies
-                            and systems to help improve safety and help make it easier for everyone to get around.
-                        </p>
-                    </div>
+               
+        </section>
+        <div class="w-section section" style="background-image: url(../images/app-bg-3.jpg); padding-top: 120px; background-position: 50% 50%; background-size: cover; padding-bottom: 120px; background-repeat: no-repeat; height: 100vh">
+            <div class="content" style="justify-items: center left: 0; top: 50%; right: 0; display: block; margin-right: auto; margin-left: auto; text-align: center">
+                <h1 style="color:#fff5d4; margin-top:200px"
+                    class="ms-10 mb-0">Reliable Pricing.<br /> Accountable Service.</h1>
+                <div style="margin-top:20px; margin-left: 22%">
+                    <p style="max-width: 700px; font-size: 24px; line-height: 30px; margin-bottom: 20px; margin-left: 200px; font-weight: bolder; color: #fff5d4; font-family: 'Muller Medium',sans-serif">
+                        We respect your privacy, so we built our app to work without having your credit card on file so you can pay your driver your way, not ours, with cash or a credit card. With YellowCabCo., you can always rely on a consistent fare, with no surge pricing, during peak transportation events while letting you give immediate feedback on how our drivers are doing out in the field.               
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
 
 
 
-        <section class="vh-35" style="background-color:  #062e33; height: 80vh">
+
+        <section class="vh-35" style="background-color: #062e33; height: 100vh">
             <div class="container py-5">
 
                 <div class="row  align-items-center h-80">
-                <h1 style="color: #e9eed6; margin-bottom: 50px" id="team">Our Team</h1>
+                    <h1 style="color: #e9eed6; margin-bottom: 50px" id="team">Our Team</h1>
                     <!--card one -->
                     <div class="col-md-3 col-xl-3">
                         <div class="card" style="border-radius: 15px">
@@ -285,11 +285,7 @@
                                     <div class="px-3">
                                         <p class="mb-2 h5">8512</p>
                                         <p class="text-muted mb-0">Income amounts</p>
-                                    </div>
-                                    <!--  <div>
-                                        <p class="mb-2 h5">4751</p>
-                                        <p class="text-muted mb-0">Total Transactions</p>
-                                    </div> -->
+                                    </div>                               
                                 </div>
                             </div>
                         </div>
@@ -301,11 +297,11 @@
 
         <section id="hero"
             class="text-light text-center text-md-start py-5"
-            style="background-color: #e9eed6">
+            style="background-color: #e9eed6;height:100vh">
             <div class="container">
-                <div class="d-sm-flex align-items-center" style="height: 60vh">
+                <div class="d-sm-flex align-items-center">
                     <!-- div>h1+img -->
-                    <div class="py-5 col-md-6 mt-5" style="height: 60vh">
+                    <div class="py-5 col-md-6 mt-5">
                         <h1 style="color: #062e33; margin-top: 80px"
                             class="ms-10 mb-0">Join a fleet in Damascus to drive with AutoCar </h1>
 
@@ -320,6 +316,7 @@
                         class="d-none d-sm-block img-fluid w-50 h-70 mx-3 mb-0"
                         src="../images/join_us-removebg-preview.png"
                         alt="" />
+                   
 
 
                     <!-- <div class="col-md-4 col-lg-5 ms-5 mb-5">
